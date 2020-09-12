@@ -19,6 +19,8 @@ and some of the computational consequences.
 
 This project is the work of [Ross W. Gayler][rwg].
 
+# ### Not updated below here ###
+
 ## Project structure
 
 * We are using the [`{workflowr}`](https://github.com/jdblischak/workflowr) package 
