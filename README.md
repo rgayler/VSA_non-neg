@@ -19,19 +19,21 @@ and some of the computational consequences.
 
 This project is the work of [Ross W. Gayler][rwg].
 
-# ### Not updated below here ###
+*The purpose of this `README`
+is to orient the reader with respect to
+the technical structure of this project.*
 
 ## Project structure
 
-* We are using the [`{workflowr}`](https://github.com/jdblischak/workflowr) package 
-to structure the project so that the work is computationally reproducible
-and all the materials and outputs are openly accessible.
-  * The project code is shared publicly on GitHub at https://github.com/rgayler/VSA_op_properties
-  * The website automatically generated from the rendered project documents is at https://rgayler.github.io/VSA_op_properties/
+* This project is structured using the [`{workflowr}`][workflowr] package 
+  so that the work is computationally reproducible
+  and all the materials and outputs are openly accessible.
+  * The project code is shared publicly on GitHub at https://github.com/rgayler/VSA_non-neg
+  * The website automatically generated from the rendered project documents is at https://rgayler.github.io/VSA_on-neg
 
-* [`{workflowr}`](https://github.com/jdblischak/workflowr) only manages a subset of the files,
-so you will need to manually stage and commit any other files
-that need to be mirrored on GitHub.
+* [`{workflowr}`][workflowr] only manages a subset of the files,
+  so any other files that need to be mirrored on GitHub
+  need to be manually staged and commitd.
 
 * There are three key source documents:
   * `analysis/skeleton.Rmd` contains the outline of the final paper
@@ -43,6 +45,9 @@ that need to be mirrored on GitHub.
 *Refer to John Blischak's https://github.com/jdblischak/singleCellSeq 
 (created before he developed  [`{workflowr}`](https://github.com/jdblischak/workflowr)) 
 for ideas on project organisation.*
+
+
+# ### Not updated below here ###
 
 ## Installation
 
